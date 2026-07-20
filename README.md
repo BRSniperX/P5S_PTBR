@@ -10,10 +10,6 @@ Cobre o texto do jogo e boa parte da interface gráfica.
 Esta tradução **substitui os arquivos do idioma espanhol** do jogo. Ela não
 adiciona um idioma novo — ela reescreve o espanhol em português.
 
-**Se o jogo não estiver em espanhol, a tradução simplesmente não aparece.**
-Nada quebra, nada dá erro: você só continua vendo o idioma que estiver
-selecionado.
-
 ### Como deixar o jogo em espanhol na Steam
 
 1. Abra a **Biblioteca** da Steam.
@@ -30,6 +26,9 @@ Versão pirata, de outra loja (Epic, GOG) ou de console **não** é suportada.
 O projeto foi feito e testado na versão Steam para PC.
 
 ---
+### Download:
+https://github.com/BRSniperX/P5S_PTBR/releases
+
 
 ## Instalação
 

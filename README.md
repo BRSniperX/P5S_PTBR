@@ -1,4 +1,4 @@
-# Persona 5 Strikers — Tradução PT-BR (v1.0)
+# Persona 5 Strikers — Tradução PT-BR (v1.1)
 
 Tradução para português do Brasil de **Persona 5 Strikers** (PC / Steam).
 Cobre o texto do jogo e boa parte da interface gráfica.

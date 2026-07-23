@@ -5,14 +5,23 @@ Cobre o texto do jogo e boa parte da interface gráfica.
 
 ---
 
+## Novidades da v1.1
+
+- Refino técnico da tradução textual.
+
+---
+
 ## ⚠️ REQUISITO OBRIGATÓRIO: o jogo tem que estar em ESPANHOL
 
 Esta tradução **substitui os arquivos do idioma espanhol** do jogo. Ela não
 adiciona um idioma novo — ela reescreve o espanhol em português.
 
-**Se o jogo não estiver em espanhol, a tradução simplesmente não aparece.**
-Nada quebra, nada dá erro: você só continua vendo o idioma que estiver
-selecionado.
+**Jogar em outro idioma com a tradução instalada quebra o jogo.** Não é que o
+português apenas deixa de aparecer: a interface fica corrompida, com textos
+ilegíveis, embaralhados ou fora do lugar.
+
+Por isso, deixar o jogo em espanhol **antes** de instalar não é uma
+recomendação — é obrigatório.
 
 ### Como deixar o jogo em espanhol na Steam
 
@@ -34,9 +43,9 @@ O projeto foi feito e testado na versão Steam para PC.
 ## Instalação
 
 1. **Confirme que o jogo está em espanhol** (seção acima). Este é o passo que
-   mais causa dúvida — não pule.
+   mais causa problema — não pule.
 2. **Feche o jogo.**
-2. Copie o conteúdo do .zip para a pasta onde o jogo está instalado, mantendo a
+3. Copie o conteúdo do .zip para a pasta onde o jogo está instalado, mantendo a
    estrutura. O caminho costuma ser:
 
    ```
@@ -62,9 +71,9 @@ O projeto foi feito e testado na versão Steam para PC.
 
 | O que você vê | Causa quase certa |
 |---|---|
+| Textos **embaralhados** ou ilegíveis | O idioma na Steam não está em espanhol. Troque para espanhol e reinstale. |
 | Jogo em **espanhol**, sem nada em português | Os arquivos não foram para a pasta certa. Confira a lista acima, caminho por caminho. |
-| Jogo em **inglês** ou outro idioma | O idioma na Steam não é espanhol. Volte à seção do requisito. |
-| Português voltou a sumir depois de um tempo | A Steam verificou/atualizou os arquivos. Reinstale a tradução. |
+| Português sumiu depois de um tempo | A Steam verificou/atualizou os arquivos. Reinstale a tradução. |
 | Jogo não abre | Restaure sua cópia da pasta `update\` e reporte o problema. |
 
 ### Antes de instalar, faça backup
@@ -75,15 +84,15 @@ guarde uma cópia de `update\` se você já tiver outros mods ali.
 
 ### Para desinstalar
 
-Apague os arquivos listados acima. Se a pasta `update\` era sua e tinha outras
-coisas, apague só os arquivos desta lista.
+Apague os arquivos listados acima. Se a pasta `update\` já era sua e tinha
+outras coisas, apague apenas os arquivos desta lista.
 
 ---
 
 ## O que está traduzido
 
 **Texto** — completo: diálogos, menus, itens, habilidades, descrições,
-solicitações, tutoriais.
+solicitações e tutoriais.
 
 **Interface gráfica** — esta é a parte trabalhosa. No Persona 5 Strikers, boa
 parte da interface **não é texto**: são imagens desenhadas, no estilo recortado
@@ -99,9 +108,9 @@ Tudo que se acessa pelo botão de menu:
   "aperte qualquer botão"
 - **Menu de pausa**: `TUTORIAL`, `CARREGAR DADOS`, `SALVAR DADOS`,
   `VOLTAR À TELA DE TÍTULO`, `SAIR DO JOGO`
-- **Abas e telas internas**: itens, equipamento, status, vínculos, registro
+- **Abas e telas internas**: itens, equipamento, status, vínculos e registro
 - **Configurações**: dificuldade, vibração, legendas, exibir dano, guia de
-  controles, inverter câmera, e as opções de vídeo
+  controles, inverter câmera e as opções de vídeo
 - **Os 24 Arcanos** (Louco, Mago, Sacerdotisa, Imperatriz…)
 - **Sala de Veludo**: `Criar Novas Personas`, `Melhoria de Persona`,
   `Registrar/Invocar Personas`, com as legendas de cada opção
@@ -135,16 +144,14 @@ O que aparece andando pelas prisões e pela cidade:
 
 ## O que NÃO está traduzido
 
-Sendo honesto sobre os limites desta versão. Alguns rótulos aparecem em
-**espanhol** justamente porque a tradução parte do espanhol: o que não foi
-redesenhado continua no idioma de origem.
+Sendo honesto sobre os limites desta versão:
 
 - **Placas e cartazes do cenário** (farmácia, estação, lojas de rua). Ficam em
   japonês, como no jogo original — nem a localização oficial em espanhol as
   traduziu. Traduzir quebraria a ambientação de Tóquio.
-- **Alguns rótulos soltos** que ainda não foram localizados nos arquivos do
-  jogo. Uma parte deles a própria localização espanhola deixou **em japonês** —
-  ou seja, também aparecem assim para quem joga em espanhol.
+- **Parte das imagens de interface**, que ainda aparecem em espanhol. Como a
+  tradução parte do espanhol, o que ainda não foi redesenhado continua no
+  idioma de origem.
 
 ---
 
@@ -161,9 +168,7 @@ redesenhado continua no idioma de origem.
 
 ## Problemas conhecidos
 
-- Na tela de configurações, a opção **não** selecionada ainda mostra um rótulo
-  em espanhol ao lado.
-- Um rótulo vermelho de espaço vazio de habilidade aparece como `ABIERTO`.
-- Na Sala de Veludo, uma tela mostra `Nueva entrada`.
+Ainda há artes da interface em espanhol, que serão corrigidas em versões
+futuras.
 
-Se encontrar outros, reporte com um print e o nome da tela.
+Encontrou algo além disso? Reporte com um print e o nome da tela.

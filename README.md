@@ -94,7 +94,9 @@ Encontrou algo além disso? Abra uma issue com um print e o nome da tela.
 
 ---
 
-Agradecimento a **OTTYSS**.
+Agradecimento a **Ahtheerr** e **OTTYSS**.
+
+O **HexPatcher** foi criado por **Ahtheerr**.
 
 `dinput8.dll` e `HexPatcher.asi` são componentes de terceiros, incluídos apenas
 para facilitar a instalação; os créditos e a licença pertencem aos seus autores.

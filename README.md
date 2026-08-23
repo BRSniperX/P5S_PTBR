@@ -1,7 +1,10 @@
-# Persona 5 Strikers — Tradução PT-BR v1.2
+# Persona 5 Strikers — Tradução PT-BR v2.0
 
 Tradução para português do Brasil de **Persona 5 Strikers** (PC / Steam).
-Cobre o texto do jogo e boa parte da interface gráfica.
+
+Esta é a versão que fecha o projeto: o texto foi **relido inteiro, linha a
+linha, contra o original em espanhol**, e a interface gráfica ganhou vinte e
+seis frentes novas de textura.
 
 > ⚠️ **O jogo precisa estar em ESPANHOL.** Esta tradução reescreve os arquivos
 > do idioma espanhol — ela não adiciona um idioma novo. Jogar em outro idioma
@@ -9,34 +12,117 @@ Cobre o texto do jogo e boa parte da interface gráfica.
 
 ---
 
-## Novidades da v1.2
+## A revisão integral
 
-**Menu do esconderijo** — as placas do acampamento agora estão em português:
-`FALAR`, `COZINHAR`, `USAR LOJA`, `VER SOLICITAÇÕES`, `ENVIAR AVISO`,
-`INFILTRAR NA PRISÃO`, `ENTRAR NA SALA DE VELUDO`, `IR AO DESTINO`,
-`IR À PRÓXIMA CIDADE` e `SAIR`.
+**23.175 falas em 700 blocos, todas lidas e comparadas com o espanhol.** Não foi
+busca-e-substitui: cada linha foi conferida no contexto da cena em que aparece.
 
-**Loja da Sophia** — a tela inteira: `Preço`, `Em posse`, `Dinheiro`,
-`Inventário`, `Informação`, os cabeçalhos de compra e venda, `Esgotado`,
-`Novo`, `Ienes` e as confirmações.
+**Resultado: 10.700 falas mudaram**, de 23.933 — quase metade do jogo.
 
-**Cozinha e investigação** — `O que eu cozinho?`, `Necessário`, `Dá pra fazer`,
-`INVESTIGAÇÃO`, `COMEÇAR`, `ESCREVA SEU NOME` e o `ACEITAR`. Três desses
-rótulos ainda estavam em **japonês** na versão espanhola do jogo.
+| | |
+|---|---|
+| Retoque pontual — uma palavra, um tempo verbal | 5.869 |
+| Frase reescrita | 4.701 |
+| Só a quebra de linha, para a fala caber no balão | 130 |
 
-**Data no esconderijo** — dias da semana e períodos do dia, que ali continuavam
-em espanhol mesmo com o HUD já traduzido.
+### Termos do sistema
 
-**Sala de Veludo** — o `Nueva entrada` da tela de registro virou `Nova entrada`.
+Alinhados ao **glossário oficial da Atlus em português** (o de *Persona 3
+Reload*, 6.122 termos), para quem vem dos outros jogos da série reconhecer tudo.
 
-**Configurações** — o `DESACTIVADO`/`ACTIVADO` inclinado que aparece na opção
-não selecionada.
+| Antes | Agora | Onde |
+|---|---|---|
+| `PS` | **`PV`** | pontos de vida, 180 lugares |
+| `Reforço de Força` | **`Reforçar Força`** | habilidades de apoio |
+| `eletricidade`, `elétrico` | **`raio`**, **`choque`** | afinidade elemental |
+| `amnésia` | **`esquecimento`** | aflição |
+| `efeitos negativos` | **`aflições`** | tela de status |
+| `Amplif.` | **`Ampliar`** | modificadores |
+| `Kyoto` | **`Quioto`** | 31 lugares |
+| `Johanna` | **`Joana`** | a Persona da Makoto |
+| `lámen` | **`ramen`** | 48 lugares |
 
-### Correções de texto
+### A frase que dá nome ao jogo
 
-- Ryuji falava de si no feminino numa fala do beco de Shibuya.
-- Uma fala da Ann em Shibuya vazava para fora do balão.
-- A descrição do curativo partia o número "20" no meio, na quebra de linha.
+`despertar el corazón` saía como «despertar o coração». O termo da série em
+português é **«mudar o coração»** — é o que os Ladrões Fantasma fazem, é o que a
+tradução oficial usa, e são **88 falas**, incluindo o código do grupo:
+
+> **Antes** — `Mesmo assim, preferimos despertar corações a ferir pessoas.`
+> **Agora** — `Mesmo assim, preferimos mudar o coração das pessoas em vez de machucá-las.`
+
+### A voz dos personagens
+
+- **O palavrão voltou** — **184 falas**. O espanhol xinga (`joder`, `hostia`,
+  `qué coño`, `de cojones`) e a v1.2 amaciava tudo para «caramba» e «que
+  diabos», ou apagava.
+- **Modos e condicionais restaurados** — `deveríamos` tinha virado `devemos`;
+  a sugestão saía como ordem e a hesitação do personagem sumia.
+- **Marcadores de fala normalizados** — o `né`, o `pois`, os risos.
+- **Gênero de quem fala** conferido em série.
+- **`señorita Ann`** virou **`Lady Ann`**, o apelido que o Morgana usa na série.
+
+### As falas que estavam encurtadas
+
+**289 falas longas do espanhol chegavam resumidas** — cabiam melhor, mas
+perdiam uma condição, um detalhe, uma piada:
+
+> ES `¿Tú qué opinas teniendo en cuenta toda esa muchedumbre? Alice está ahí mismo, ¡estoy flipando!`
+> **Antes** — `Olha essa multidão. Alice está bem ali, não acredito!`
+> **Agora** — `O que você acha, levando em conta toda essa multidão? A Alice está bem ali, tô pirando!`
+
+### Texto vazando do balão
+
+**As caixas estouradas foram zeradas.** Eram falas que tinham perdido a quebra
+de linha do original e transbordavam em jogo. Consertadas redistribuindo a
+quebra, sem cortar palavra — mais 130 casos do mesmo tipo achados na varredura.
+
+---
+
+## A interface gráfica
+
+Tudo isto é **textura**, não texto: palavras desenhadas dentro da arte do jogo,
+que nenhum arquivo de tradução alcança. Vinte e seis frentes novas desde a v1.2.
+
+**Menus e telas**
+- **Menu inicial** — `PARTIDA`, `CARREGAR`, `CONFIG.`, `EXTRAS` e
+  `PRESSIONE QUALQUER BOTÃO`, com os maneirismos do original preservados: a
+  estrela na contraforma do `O`, a boca dentro do `C` gigante, o alvo.
+- **Comandos do menu principal** — os sete, na maior letra do jogo.
+- Rótulos e linhas de ajuda do menu do sistema; tela de tutorial/progresso.
+- **Dias da semana do HUD de data**, cada um em três camadas.
+
+**Esconderijo e prisão**
+- **As dezesseis placas de escolha** — `INFILTRAR NA PRISÃO`, `USAR LOJA`,
+  `COZINHAR`, `VER SOLICITAÇÕES`, `SAIR`, `IR À PRÓXIMA CIDADE`,
+  `ENTRAR NA SALA DE VELUDO`, `EXPLORAR PRISÃO`, `TROCAR GRUPO`,
+  `IR A OUTRO PONTO DE CONTROLE`, `VOLTAR DA PRISÃO`, `VOLTAR À CARAVANA`,
+  `IR À SALA DE VELUDO`, `ACEITAR`, `FALAR` e a seta da cozinha.
+- **Avisos de ação no cenário** — `FALAR`, `EXAMINAR`, `ATACAR`, `ROUBAR`,
+  `EMBOSCADA`, `MOVER`, `AÇÃO`, `ESCUTAR`, `LOJA`, `IR`.
+
+**Batalha**
+- **Emblema do Ataque Extra** — `MÁS`/`1 MÁS` viraram `EXTRA` e `EXTRA +1`.
+- Termos e resquícios do HUD de batalha.
+- **`Você obteve`** (faixa de recompensa) e **`OBTIDO!`** (balão de item).
+- **Barras de PV/PE** — inclusive três artes que a Atlus nunca localizou em
+  idioma nenhum, e que por isso nenhuma comparação entre idiomas podia achar.
+- **`PS` → `PV`** em todos os lugares que faltavam: emblema de vida, ícones de
+  categoria de item, rótulos das lojas.
+
+**Sala de Veludo** — `Registro de Detentos`, `Ver Registro`, `Nova entrada`, e o
+contorno dos rótulos da lista de Personas.
+
+**Lojas** — onze placas, onde a arte tem três camadas e as duas de trás
+acompanham o comprimento da palavra; mais os resquícios de espanhol no atlas.
+
+**Cenário e ambiente** — os **83 balõezinhos de emoção** sobre os NPCs, e os
+nomes de lugar: `CÁRCERE DO ABISMO`, `ÁRVORE DO CONHECIMENTO` e `Kioto` →
+**`Quioto`**, que aparece em três desenhos diferentes.
+
+A letra não é fonte instalada: ou é **colhida das outras sete variantes de
+idioma da mesma textura** — cada letra recortada de onde o próprio jogo já a
+desenhou — ou redesenhada com os maneirismos do estilo P5.
 
 ---
 
@@ -63,7 +149,7 @@ P5S\update\data\pd_ww\LINKDATA.IDX
 Abra o jogo: o menu inicial deve aparecer em português, com o selo **PT-BR**
 embaixo do logo.
 
-**Já tem a v1.0 ou a v1.1?** É só substituir os arquivos por cima.
+**Já tem uma versão anterior?** É só substituir os arquivos por cima.
 
 ### Não funcionou?
 
@@ -80,15 +166,15 @@ arquivos da lista acima.
 
 ---
 
-## Problemas conhecidos
+## O que ficou de fora, de propósito
 
-Ainda restam artes da interface em espanhol. A conhecida que falta é o rótulo
-vermelho `ABIERTO`, dos espaços de habilidade vazios: o sprite ainda não foi
-localizado nos arquivos do jogo.
+A interface gráfica está **completa** — não resta arte em espanhol. O que segue
+fora foi decisão, não pendência:
 
-As **placas e cartazes do cenário** (farmácia, estação, lojas de rua) ficam em
-japonês de propósito — nem a localização oficial em espanhol as traduziu, e
-traduzir quebraria a ambientação de Tóquio.
+- As **placas e cartazes do cenário** (farmácia, estação, lojas de rua) ficam em
+  japonês — nem a localização oficial em espanhol as traduziu, e traduzir
+  quebraria a ambientação de Tóquio.
+- As **168 capturas de tutorial** e o **aviso legal em japonês da abertura**.
 
 Encontrou algo além disso? Abra uma issue com um print e o nome da tela.
 

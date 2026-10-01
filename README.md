@@ -1,5 +1,7 @@
 # Tradução PT-BR de Persona 5 Strikers — v2.1
 
+<img width="2048" height="768" alt="persona5_strikers_nexus_traducao_ptbr_sem_duplicacao" src="https://github.com/user-attachments/assets/23c654c3-d7cc-477f-9160-25ab8ebf6b5c" />
+
 
 Tradução para português do Brasil de **Persona 5 Strikers** (PC / Steam).
 Texto e interface gráfica, completos.

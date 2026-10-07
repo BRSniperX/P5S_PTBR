@@ -1,87 +1,71 @@
-# Tradução PT-BR de Persona 5 Strikers — v2.1
+# Tradução PT-BR de Persona 5 Strikers — v2.2
 
 <img width="2048" height="768" alt="persona5_strikers_nexus_traducao_ptbr_sem_duplicacao" src="https://github.com/user-attachments/assets/23c654c3-d7cc-477f-9160-25ab8ebf6b5c" />
-
 
 Tradução para português do Brasil de **Persona 5 Strikers** (PC / Steam).
 Texto e interface gráfica, completos.
 
-**Esta versão não contém nenhum arquivo de terceiros.** É a mudança principal, e
-ela é estrutural.
+**Esta versão é só de arte: a interface gráfica foi refeita.** O texto não
+mudou.
 
-> **⚠️ Atualizando da v2.0 ou v2.0.1? A instalação mudou.** Apague os arquivos
-> antigos antes de copiar os novos (`dinput8.dll`, `HexPatcher.*` e o conteúdo de
-> `update\data\`), senão os dois métodos convivem e o antigo vence. Detalhes em
-> «Vindo da v2.0, v2.0.1 ou anterior». *Usa o P5StrikersFix? Não apague o
-> `dinput8.dll` — leia a seção antes.*
+> **Já está na v2.1?** É só copiar por cima, aceitando substituir — são os
+> mesmos três arquivos. **Vindo da v2.0.1 ou anterior?** Leia «Vindo da v2.0,
+> v2.0.1 ou anterior» antes de copiar.
 
 ---
 
 ## O que mudou
 
-### Nenhum componente de terceiros, nenhum script
+### A arte da interface, refeita
 
-Até a v2.0.1, o pacote precisava de duas peças que não eram nossas:
+Na v2.1, parte das imagens traduzidas usava letras de fontes genéricas, que
+destoavam do resto do jogo. Na v2.2 a interface gráfica foi refeita, imagem por
+imagem, para parecer uma tradução oficial.
 
-- o **Ultimate ASI Loader** (`dinput8.dll`), que injetava código no processo do
-  jogo e interceptava as chamadas de abertura de arquivo do Windows
-  (`CreateFileA/W`, `FindFirstFileA/W`, `GetFileAttributesW`);
-- o **HexPatcher** (`HexPatcher.asi`), que reescrevia em memória a tabela de
-  índice dos textos.
+- **A letra vem do próprio jogo.** Na grande maioria das imagens, cada letra é
+  recortada de onde o jogo já a desenhou — nas outras versões de idioma da
+  mesma imagem, ou em outra imagem da mesma família de letra — com o contorno,
+  a sombra, o papel recortado e a inclinação do original.
+- **Algumas artes de destaque foram redesenhadas à mão** no estilo do
+  original, onde as letras do jogo não davam conta: os três MISSÃO, MANDOU
+  BEM, ATAQUE TOTAL e OBTIDO!!.
+- **O menu inicial foi redesenhado** — NOVO JOGO, CARREGAR JOGO, PRESSIONE
+  QUALQUER BOTÃO e os demais itens — no estilo de bilhete recortado do
+  original. O selo agora mostra **PT-BR v2.2**.
+- **Imagens que todos os idiomas oficiais deixavam em japonês** agora estão em
+  português, no estilo do jogo.
+- **Telas de missão e de batalha** — MISSÃO, MANDOU BEM, SUBIU DE NÍVEL,
+  ATAQUE TOTAL, OBTIDO!!, FALAR e os outros avisos — com as letras e as
+  sombras de fundo acompanhando o texto, como no original.
+- **Os avisos de ação** (MOVER!, ROUBAR, EXAMINAR...) não encostam mais no
+  ícone do botão.
+- **Compressão melhor.** O formato de textura do jogo mancha blocos que
+  misturam cores muito diferentes (vermelho e branco, por exemplo). As
+  imagens novas passam por um ajuste que evita isso.
 
-**Nenhuma das duas vem mais.** Não há DLL injetada, não há `.asi`, não há gancho
-em API do Windows, não há script, e o executável do jogo **não é modificado**.
-
-O pacote agora tem **quatro arquivos**: três de dados do jogo e um LEIA-ME.
-
-### Por que isso só foi possível agora
-
-A tabela que diz onde cada bloco de texto começa dentro do arquivo de dados **não
-é um arquivo**: ela está dentro do próprio executável do jogo. Era por não saber
-disso que o projeto usava o HexPatcher — ele reescrevia essa tabela em tempo de
-execução, porque o texto do mod que serviu de base ao projeto tinha ficado
-**maior** que o original e precisava de endereços novos.
-
-O nosso texto em português **não fica maior**. Nos 332 blocos que a tradução
-toca, ele termina mais curto que o espanhol original — a folga vai de 4 bytes a
-quase 9 KB. Então cada bloco traduzido entra exatamente no lugar do original, com
-o mesmo tamanho, e a tabela que já está no executável continua valendo sem uma
-única alteração.
-
-### O que isso muda na prática
-
-- **Se der problema, o problema é nosso.** Não há mais como uma peça de terceiro,
-  numa versão antiga ou em conflito com antivírus, entrar na conta.
-- **Convive com qualquer outro mod.** Como o pacote não traz `dinput8.dll`, ele
-  não tem como sobrescrever o de ninguém. Quem usa o **P5StrikersFix** ou outro
-  mod com carregador próprio não precisa mais conferir nada antes de copiar.
-- **Nada externo carregado junto com o jogo.**
-
-### Também nesta versão
-
-- **O selo do menu inicial** agora mostra **PT-BR v2.1**.
-- **O `OBTIDO!` foi refeito** — a arte que aparece ao receber um item.
-- **A arte ficou 2,81 MB menor** (11,91 MB → 9,11 MB, 24% menos). O arquivo de
-  texturas guardava espaço morto de versões anteriores; foi recompactado **sem
-  recomprimir nenhuma imagem**. As 23 texturas foram conferidas uma a uma e
-  descomprimem idênticas às da v2.0.1 — não há perda de qualidade.
-- O download caiu de 69,9 MB para **65,8 MB**.
+Das 23 texturas de interface, **19 mudaram** e **4 são byte a byte idênticas**
+à v2.1. O arquivo de texturas tem 9,29 MB (era 9,11 MB): foi recompactado, sem
+espaço morto — o aumento é só das imagens novas. O download tem **65,6 MB**.
 
 ### O texto não mudou
 
-**Os 332 blocos de texto são byte a byte idênticos aos da v2.0.1.** Isso foi
-conferido, não suposto. A tradução está fechada desde a revisão integral da v2.0:
-23.933 falas, cada uma lida no contexto da cena em que aparece.
+O `LINKDATA.BIN` é **byte a byte idêntico** ao da v2.1. Isso foi conferido, não
+suposto. A tradução está fechada desde a revisão integral da v2.0: 23.933
+falas, cada uma lida no contexto da cena em que aparece.
 
-Das 23 texturas de interface, **21 são byte a byte idênticas** à v2.0.1. As duas
-que mudaram são o selo e o `OBTIDO!`.
+### Continua sem nenhum arquivo de terceiros
+
+Como na v2.1, o pacote **não traz** `dinput8.dll` nem HexPatcher: não há DLL
+injetada, não há `.asi`, não há script, e o executável do jogo **não é
+modificado**. São quatro arquivos: três de dados do jogo e um LEIA-ME. Quem usa
+o **P5StrikersFix** ou outro mod com carregador próprio não precisa conferir
+nada antes de copiar.
 
 ---
 
 ## Instalação
 
-**Atenção: esta versão substitui dois arquivos do jogo.** As anteriores não
-faziam isso — elas punham tudo numa pasta `update\` separada.
+**Esta versão substitui dois arquivos do jogo.**
 
 ### 1. Faça backup dos dois arquivos
 
@@ -109,7 +93,7 @@ Steam → botão direito em *Persona 5 Strikers* → **Propriedades** → **Idio
 ```
 P5S\data\pd_ww\LINKDATA.BIN                      (substitui)
 P5S\data\motor_rsc\ScreenLayout.rdb              (substitui)
-P5S\data\motor_rsc\ScreenLayout.rdb.bin_9        (arquivo novo)
+P5S\data\motor_rsc\ScreenLayout.rdb.bin_9        (substitui, ou arquivo novo)
 ```
 
 A pasta do jogo normalmente fica em `...\Steam\steamapps\common\P5S`.
@@ -117,10 +101,14 @@ Na Steam: botão direito no jogo → **Gerenciar** → **Procurar arquivos locai
 
 ### 4. Abra o jogo
 
-O menu inicial deve aparecer em português, com o selo **PT-BR v2.1** embaixo do
+O menu inicial deve aparecer em português, com o selo **PT-BR v2.2** embaixo do
 logo.
 
 ---
+
+## Vindo da v2.1
+
+Copie por cima, aceitando substituir. Não há nada para apagar.
 
 ## Vindo da v2.0, v2.0.1 ou anterior
 
@@ -139,20 +127,17 @@ P5S\update\data\motor_rsc\ScreenLayout.rdb.bin_9
 
 > **Usa o P5StrikersFix?** Então **não apague o `dinput8.dll`** — ele é o
 > carregador que o P5StrikersFix também usa. Apague só os `HexPatcher.*` e o
-> conteúdo de `update\data\`. A tradução nova não depende dele, e os dois
-> convivem sem conflito.
+> conteúdo de `update\data\`. A tradução não depende dele, e os dois convivem
+> sem conflito.
 
 ---
 
 ## A Steam desfaz a instalação
 
-Como esta versão substitui arquivos do jogo, **a verificação de integridade da
+Como a tradução substitui arquivos do jogo, **a verificação de integridade da
 Steam devolve os originais** e a tradução desaparece. O mesmo vale se o jogo
 receber uma atualização. Não é defeito, é como a Steam funciona — quando
 acontecer, copie os arquivos outra vez.
-
-Isso foi testado: a verificação repõe os dois arquivos substituídos, **não toca
-no executável** e **não apaga** o `ScreenLayout.rdb.bin_9`.
 
 ### Para desinstalar
 
@@ -171,6 +156,7 @@ Sem backup? Rode a verificação de integridade na Steam e depois apague o
 | Texto **embaralhado** ou ilegível | O idioma na Steam não está em espanhol. É de longe a causa mais comum. |
 | Jogo em **espanhol**, nada em português | Os arquivos não foram para a pasta certa. Confira a lista caminho por caminho. |
 | Texto em português, **imagens em espanhol** | Faltou o `ScreenLayout.rdb.bin_9`, ou o `ScreenLayout.rdb` não foi substituído. |
+| Selo ainda diz **v2.1** | O `ScreenLayout.rdb` ou o `.bin_9` não foi substituído. Copie de novo, aceitando substituir. |
 | Português **sumiu** depois de um tempo | A Steam verificou ou atualizou o jogo. Copie os arquivos de novo. |
 | Interface **esticada** em ultrawide | Não é a tradução. É o jogo, e quem conserta é o **P5StrikersFix**, que não vem aqui e nunca veio. |
 | Jogo **não abre** | Restaure os dois arquivos do backup e reporte o problema. |
@@ -184,12 +170,8 @@ habilidades, descrições, solicitações, tutoriais e as legendas dos vídeos.
 
 **Interface gráfica** — completa. No Persona 5 Strikers, boa parte da interface
 **não é texto**: são imagens desenhadas, no estilo recortado da série. Trocar uma
-palavra ali significa redesenhar o sprite, reproduzindo a fonte, o contorno, a
+palavra ali significa redesenhar a imagem, reproduzindo a letra, o contorno, a
 sombra e a inclinação do original.
-
-A letra não é fonte instalada: ou é **colhida das outras sete variantes de idioma
-da mesma textura** — cada letra recortada de onde o próprio jogo já a desenhou —
-ou redesenhada com os maneirismos do estilo P5.
 
 ## O que ficou de fora, de propósito
 
@@ -200,24 +182,14 @@ ou redesenhada com os maneirismos do estilo P5.
 
 ---
 
-## Provavelmente o último patch
+## Sobre «o último patch»
 
-O jogo está traduzido por inteiro, texto e imagem, e a tradução está fechada
-desde a v2.0. Não há mais frente aberta.
+A v2.1 foi anunciada como provavelmente o último patch. A v2.2 veio porque a
+arte ainda podia ficar mais perto do original — o texto continua fechado, e
+nada aqui muda o que você lê.
 
-**Isso não significa abandono.** Bug reportado continua sendo corrigido — é
-exatamente para isso que o projeto fica de pé. Se você encontrar qualquer coisa,
-mande um print e o nome da tela.
-
-### O que a versão anterior aguentou em uso real
-
-- um jogador fechou as **47 de 47 conquistas em 75 horas** com a v2.0/v2.0.1;
-- outro passou de **34 horas**;
-- **nenhum bug de tradução reportado** em nenhum dos dois.
-
-Platina exige concluir a história, todas as prisões, as solicitações e o conteúdo
-pós-jogo — e várias conquistas dependem de cumprir objetivos cujo texto é nosso.
-Um termo errado num objetivo teria travado o jogador.
+O projeto segue em manutenção: **bug reportado continua sendo corrigido**. Se
+você encontrar qualquer coisa, mande um print e o nome da tela.
 
 ---
 

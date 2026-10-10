@@ -2,7 +2,7 @@
 
 <img width="2048" height="768" alt="persona5_strikers_nexus_traducao_ptbr_sem_duplicacao" src="https://github.com/user-attachments/assets/23c654c3-d7cc-477f-9160-25ab8ebf6b5c" />
 
-Tradução para português do Brasil de **Persona 5 Strikers** (PC / Steam).
+Tradução para português do Brasil de **Persona 5 Strikers** (PC / Steam - Switch/Emulador).
 Texto e interface gráfica, completos.
 
 **Esta versão é só de arte: a interface gráfica foi refeita.** O texto não
